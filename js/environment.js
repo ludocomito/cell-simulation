@@ -1,3 +1,4 @@
+//this file contains every object appartaining to the environment the cell will interact whith
 class Particle {
 
     constructor(x, y, r, c) {

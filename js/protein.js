@@ -1,3 +1,5 @@
+//object and function related to Proteins
+
 class Protein {
 
     constructor(x, y, r, c) {

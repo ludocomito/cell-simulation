@@ -11,7 +11,7 @@ let act_concentration;
 
 let particles = [];
 
-let slider;
+let activation_slider;
 
 function setup() {
   createCanvas(1260, 1030);
@@ -19,9 +19,9 @@ function setup() {
   cy = height / 2;
   g1 = new Gene(cx, cy, r, c);
 
-  slider = createSlider(0, 30, 10);
-  slider.position(280, 75);
-  slider.style('width', '200px');
+  activation_slider = createSlider(0, 30, 10);
+  activation_slider.position(280, 75);
+  activation_slider.style('width', '200px');
 
   frameRate(60);
 }
@@ -30,7 +30,7 @@ function draw() {
   background(0);
   
   act_concentration = particles.length;
-  act_coefficient = slider.value();
+  act_coefficient = activation_slider.value();
   
   if(frameCount%30 == 0){
     if(newParticle(random(1,10))){
@@ -57,7 +57,7 @@ function draw() {
   fill(255);
   text("Number of particles: " + str(particles.length), 10, 30);
   text("Proteins produced: " + str(proteins.length), 10, 60);
-  text("Activation concentration: " + str(slider.value()), 10, 90);
+  text("Activation concentration: " + str(activation_slider.value()), 10, 90);
 }
 
 function keyPressed() {

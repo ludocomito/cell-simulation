@@ -1,4 +1,4 @@
-
+//objects and functions related to genes
 class Gene {
 
     constructor(x, y, r, c) {
