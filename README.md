@@ -1,7 +1,7 @@
 # Cell simulation 🧫
 
 ## The project
-![Screenshot 2022-11-15 alle 00.49.14.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dc9838d6-9e72-42ce-ab35-8a102b379975/Screenshot_2022-11-15_alle_00.49.14.png)
+![Screenshot 2022-11-15 alle 00.49.14.png](https://lh3.googleusercontent.com/u/0/drive-viewer/AJc5JmQBN35oT1dJG-90_ugNPXwi0dtIVfKOQD2WCFaGdjssAWVRLJ2lJzJ_J4QAKLGWRwSx3RI3z-acdIq7BlwLyWg4rA3dPA=w1042-h1035)
 
 This is my first project about the discovery of the systems biology field. Personally I find the study of nature and biology from a computational point of view really fascinating, since it helps having another perspective on science.
 
