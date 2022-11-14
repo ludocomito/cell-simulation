@@ -1,4 +1,4 @@
-# Cell simulation 🧬
+# Gene simulation 🧫
 
 ## The project
 
