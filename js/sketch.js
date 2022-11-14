@@ -56,7 +56,7 @@ function draw() {
   textSize(20);
   fill(255);
   text("Number of particles: " + str(particles.length), 10, 30);
-  text("Proteins produces: " + str(proteins.length), 10, 60);
+  text("Proteins produced: " + str(proteins.length), 10, 60);
   text("Activation concentration: " + str(slider.value()), 10, 90);
 }
 
