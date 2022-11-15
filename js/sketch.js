@@ -17,7 +17,7 @@ function setup() {
   createCanvas(1260, 1030);
   cx = width / 2;
   cy = height / 2;
-  g1 = new Gene(cx, cy, r, c);
+  g1 = new Cell(cx, cy, r, c);
 
   activation_slider = createSlider(0, 30, 10);
   activation_slider.position(280, 75);
